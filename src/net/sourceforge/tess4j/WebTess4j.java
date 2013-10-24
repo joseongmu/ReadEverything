@@ -31,7 +31,7 @@ public class WebTess4j extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		String result="";
-		File imageFile = new File("C:/capstone/ReadEverything/eurotext.tif");
+		File imageFile = new File("C:/capstone/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ReadEverything/image/exam4.jpg");
 		Tesseract instance = Tesseract.getInstance(); // JNA Interface Mapping
 		
 		try {

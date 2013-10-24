@@ -33,7 +33,7 @@
 </head>
  
 <body>
-	<img src= "image/pool.jpg" id="target" />
+	<img src= "image/exam4.JPG" id="target" />
 	<form name="myForm" action="cropper.jsp" method="post" onsubmit="return checkCoordinates();">
 		<input type="hidden" name="x" value=""/>
 		<input type="hidden" name="y" value=""/>
