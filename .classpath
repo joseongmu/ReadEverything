@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="C:/Users/seong/Desktop/Tess4J/lib/junit-4.10.jar"/>
 	<classpathentry kind="lib" path="C:/Users/seong/Desktop/Tess4J/dist/tess4j.jar"/>
 	<classpathentry kind="lib" path="C:/Users/seong/Downloads/mysql-connector-java-5.1.26/mysql-connector-java-5.1.26/mysql-connector-java-5.1.26-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/seong/Desktop/Tess4J/lib/cos.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

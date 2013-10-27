@@ -13,6 +13,7 @@
 	int y = Integer.parseInt(request.getParameter("y"));
 	int w = Integer.parseInt(request.getParameter("w"));
 	int h = Integer.parseInt(request.getParameter("h"));
+	imagename = request.getParameter("imagename");
 	float scaleFactor=3.0f;
 	float[] elements = { 
 			0.0f, -1.0f, 0.0f,
@@ -21,10 +22,9 @@
 	String fileName = new Date().getTime()+"";
 
 	try {
-		//String absolutePath = "C:/ImageCrop/hello/WebContent/image/";
 		String absolutePath = "C:/capstone/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ReadEverything/image/";
 		
-		BufferedImage originalImgage = ImageIO.read(new File(absolutePath+ "exam4.jpg"));
+		BufferedImage originalImgage = ImageIO.read(new File(absolutePath+imagename));
 		BufferedImage SubImage = originalImgage.getSubimage(x, y, w, h);
 		
 		RescaleOp rescale = new RescaleOp(scaleFactor,-100.0f, null);
